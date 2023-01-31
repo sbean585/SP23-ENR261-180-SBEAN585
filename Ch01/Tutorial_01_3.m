@@ -43,3 +43,6 @@ end
 %  output the MatrixA
 MatrixOld
 
+% The modern way of squarring each element in a matrix.
+% The .^ operator is used to denote that each element is to be squared
+% as opposed to squaring the entire Matrix in a single operation
