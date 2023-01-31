@@ -15,7 +15,7 @@ fprintf('Output for Tutorial_01_2 written by John Wadach.\n\n')
 
 % Variable definitions
 RowVector=[1 2 3 4 5 ] % row vector variable
-MatrixA=[1 2 3 4;5 6 7 8;9 10 11 12] 5 matrix variable
+MatrixA=[1 2 3 4;5 6 7 8;9 10 11 12] % matrix variable
 
 % The old way of finding the average value of a row vector.
 SumRow= 0 % initialize the sum to 0
@@ -46,3 +46,5 @@ MatrixOld
 % The modern way of squarring each element in a matrix.
 % The .^ operator is used to denote that each element is to be squared
 % as opposed to squaring the entire Matrix in a single operation
+MatrixModern=MatrixA.^2
+
